@@ -1,0 +1,35 @@
+http://www.w3schools.com/w3css/w3css_slideshow.asp
+
+
+Slideshow html:
+<img class="mySlides" src="img_fjords.jpg">
+<img class="mySlides" src="img_lights.jpg">
+<img class="mySlides" src="img_mountains.jpg">
+<img class="mySlides" src="img_forest.jpg">
+
+
+Button Html:
+<a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;  Prev</a>
+<a class="w3-btn-floating w3-display-right" onclick="plusDivs(+1)">Next &#10095;</a>
+
+
+
+JavaScript:
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
