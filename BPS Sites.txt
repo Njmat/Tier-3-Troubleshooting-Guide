@@ -1,0 +1,5 @@
+Site ID's:
+LXM = All LA
+SAN = San Diego
+PLM = Desert Cities
+NAT = All MW (including El Centro 84484200)
