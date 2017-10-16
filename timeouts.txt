@@ -1,0 +1,17 @@
+T3 Timeout ( Ranging Request Retries Exhausted )
+Explanation: The cable modem has sent 16 Ranging Request (RNG-REQ) messages 
+without receiving a Ranging Response (RNG-RSP) message in reply from the CMTS. 
+The cable modem is therefore resetting its cable interface and restarting the registration process. 
+This typically is caused by noise on the upstream that causes the loss of MAC-layer messages. 
+Noise could also raise the signal-to-noise ratio (SNR) on the upstream to a point where the cable modem¿s 
+power level is insufficient to transmit any messages. If the cable modem cannot raise its upstream 
+transmit power level to a level that allows successful communication within the maximum timeout period, 
+it resets its cable interface and restarts the registration process. This error message is DOCSIS 
+event message is R03.0, Ranging Request.
+
+T4 Timeout ( Received Response to Broadcast Maintenance Request, But no Unicast Maintenance opportunities received )
+Explanation: The cable modem did not received a station maintenance opportunity in which to transmit a Ranging 
+Request (RNG-REQ) message within the T4 timeout period (30 to 35 seconds). The cable modem is resetting its 
+cable interface and restarting the registration process. Typically, this indicates an occasional, temporary 
+loss of service, but if the problem persists, check for possible service outages or maintenance activity on 
+this particular headend system. This error message is DOCSIS event message is R04.0, Ranging Request.

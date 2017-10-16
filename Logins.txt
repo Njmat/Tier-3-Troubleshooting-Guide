@@ -1,0 +1,105 @@
+IPv6 Login:
+ccare-jump-01.chrcnc.twc.net
+
+******************************************
+
+https://xms2.rr.com/landing/
+Then log in with:
+hammer
+chang3m3
+
+******************************************
+
+Neustar TN Activation
+
+https://soaact.neustar.biz:7788/anivr/TNActivation.do 
+
+TWC_PROD
+TIER 3 COS_PORT
+reset1
+
+******************************************
+
+Port PS
+
+https://portps-legacy.neustar.biz/portps/SubmitLogon.do?u=TWC_PROD%40neustar.biz&p=QRwGFkiVp592i5ULTHJkzsnUn4k%3d
+
+TWC_PROD
+TIER 3 COS_PORT
+reset1
+
+******************************************
+
+Caller ID Info
+https://webapp2.targusinfo.com/Authentication/login.aspx?ReturnUrl=/extranetmenu/default.aspx
+
+Westpac
+wpXsa22
+
+******************************************
+
+BPS Tool
+
+https://bps-tools.cdptpa.rr.com/bps/omp_tools/Login_form.php
+
+******************************************
+
+MAC Address Lookup
+
+http://aruljohn.com/mac.pl
+
+******************************************
+
+mxtoolbox.com
+
+ats@twc.com  scustomer1
+******************************************
+
+Remedy Online
+
+https://atgremedy.twcable.com/arsys/shared/login.jsp?/arsys/ 
+
+******************************************************************************************************************
+
+TWCTV Apps:
+
+acct #: 8448200012799150
+username: tier3test1
+password: tier3technical
+
+acct #: 8448200015592313
+username: tier3train1
+password: tier3tra1n1ng
+
+acct #: 8448300560994847
+username: singlewoododn@roadrunner.com
+password: tier3cos
+
+acct#: 8448200015592339
+username: tier3train2
+password: tier3tra1n1ng
+
+acct#: 8448200012796909
+username: tier3test2
+password: tier3technical
+
+
+TWC E-Mail Accounts:			password: scustomer1
+
+e-mail: scustomer@twc.com		smss-b
+e-mail: scustomer@ca.rr.com		smss-b
+e-mail: scustomer@socal.rr.com		smss-h
+e-mail: webjam@socal.rr.com		smss-c
+e-mail: ttier3003@socal.rr.com		smss-a
+e-mail:	scustomertest@socal.rr.com	smss-f
+e-mail: tier3train2@twc.com		smss-e
+e-mail: kevintestacct@twc.com		smss-g
+
+******************************************************************************************************************
+
+http://help.twcable.com/twc_sub_agreement.html
+
+******************************************************************************************************************
+Google Drive Link
+
+https://drive.google.com/drive/folders/0B-mnIIIKfgXOTHBmRFdxU3pqbWM?usp=sharing

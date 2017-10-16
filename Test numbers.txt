@@ -1,0 +1,40 @@
+Federal Do Not Call List
+1-888-382-1222
+
+Phone #'s
+1-800-444-4444 (MCI)
+
+Customer will hear their own phone number when they dial this number.
+
+
+Fax #'s
+
+1-888-473-2963 (HP)
+1-855-392-2666 (Canon)
+
+Customer will fax the number, and get a response whether the service is working or not.
+
+faxtoy.net (receive)
+faxzero.com (send)
+
+Google Public DNS
+IPv4
+8.8.8.8
+8.8.4.4
+
+Open DNS Servers
+208.67.222.222
+208367.220.220
+
+IPv6
+2001:4860:4860::8888 (2001:4860:4860:0:0:0:0:8888)
+2001:4860:4860::8844 (2001:4860:4860:0:0:0:0:8844)
+
+Email hack checker
+https://haveibeenpwned.com/
+
+Neustar Activation Line.
+866-482-5842
+
+Google IP address
+216.58.217.110
