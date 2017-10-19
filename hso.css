@@ -6,6 +6,7 @@
 	position: fixed;
 	overflow-y: auto;
 	width:100%;
+    margin: auto;
 	top: 0;
 	left: 0;
 	z-index: 10000;
@@ -14,15 +15,16 @@
 .header ul {
 	margin: 30px auto;
 	text-align: center;
+    padding: 0px;
 }
 
 .header li {
 	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 0 40px;
+	padding: 0px;
 	border: 1px solid black;
-	width: 19%;
+	width: 20%;
 	background-color: white;
 	zoom: 1;
 }
@@ -31,7 +33,7 @@
 	background-color: #DBE9EE;
 }
 
-li a {
+a li {
 	text-decoration: none none;
 	color: black;
 }
