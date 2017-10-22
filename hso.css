@@ -49,6 +49,7 @@ a:visited {
 	height: 300px;
 	width: 100%;
 	margin-top: 90px;
+    padding-left: 0px;
 	text-align: center;
 }
 
@@ -63,7 +64,7 @@ a:visited {
 }
 
 .title {
-	margin-top: 60px;
+	margin-top: 100px;
 	text-align: center;
 	width: 100%;
 }
