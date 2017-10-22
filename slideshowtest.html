@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tier 3 Troubleshooting Guide</title>
+    <link rel="stylesheet" type="text/css" href="slideshow.css">
+    <script src="http://www.w3schools.com/lib/codemirror.js"></script>
+  </head>
+<body>
+
+<h2 class="w3-center">Manual Slideshow</h2>
+
+<div class="w3-content w3-display-container">
+<div class="mySlides">
+  <img src="Resources\phone_addl_charges\blockin_options.png">
+  <p>This is text</p>
+  </div>
+  <div class="mySlides">
+  <img src="Resources\phone_addl_charges\create_omse_order.png">
+  <p>This is 2nd image text</p>
+  </div>
+  <div class="mySlides">
+  <img src="Resources\phone_addl_charges\new_omse_order.png">
+  <p>This is third image text</p>
+</div>
+<div class="mySlides">
+  <img src="Resources\phone_addl_charges\omse_order_update.png">
+  <p>This is 4th image text</p>
+  </div>
+
+  <button class="btn" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="btn" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>

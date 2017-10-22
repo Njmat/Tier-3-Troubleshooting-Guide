@@ -1,6 +1,6 @@
-* {
+/* {
 	border: 1px solid black;
-} 
+} */
 
 .header {
 	position: fixed;
@@ -9,6 +9,7 @@
 	top: 0;
 	left: 0;
 	z-index: 10000;
+    background-color: white;
 }
 
 .header ul {
@@ -20,17 +21,17 @@
 	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 0 40px;
+	padding: 0px;
 	border: 1px solid black;
 	width: 20%;
 	background-color: white;
 }
 
-.header li a:hover {
+.header a li:hover {
 	background-color: #DBE9EE;
 }
 
-li a {
+a li {
 	text-decoration: none none;
 	color: black;
 }
@@ -46,6 +47,7 @@ a:visited {
 	height: 300px;
 	width: 100%;
 	margin-top: 90px;
+    padding-left: 0px;
 	text-align: center;
 }
 
@@ -60,7 +62,7 @@ a:visited {
 }
 
 .title {
-	margin-top: 60px;
+	margin-top: 100px;
 	text-align: center;
 	width: 100%;
 }
@@ -111,4 +113,19 @@ a:visited {
 	-moz-user-select:none;
 	-ms-user-select:none;
 	user-select:none;
+}
+
+.button {
+    border:none;
+    display:inline-block;
+    outline:0;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
 }
